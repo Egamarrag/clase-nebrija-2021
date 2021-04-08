@@ -1,4 +1,4 @@
-INFOGRAFÍA UN TERCIO DE ELLAS SON VIOLENTADAS
+# INFOGRAFÍA UN TERCIO DE ELLAS SON VIOLENTADAS
 
 La violencia contra la mujer es una de las principales problemáticas a nivel mundial. Diversos datos actuales indican que las medidas que adoptan las sociedades no son suficientes, incluso, en algunos países las desigualdades de género no son totalmente reconocidas. 
 
