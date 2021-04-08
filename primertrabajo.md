@@ -1,8 +1,10 @@
 # INFOGRAFÍA: UN TERCIO DE ELLAS SON VIOLENTADAS
 
+![image](https://user-images.githubusercontent.com/79867216/114023626-677f7780-9873-11eb-92ed-69a04c9fbf8c.png)
+
 La violencia contra la mujer es una de las principales problemáticas a nivel mundial. Diversos datos actuales indican que las medidas que adoptan las sociedades no son suficientes, incluso, en algunos países las desigualdades de género no son totalmente reconocidas. 
 
-Frente a este panorama, el portal Alcalorpolitico.com (ACP) nos presenta una infografía con datos relevantes. 
+Frente a este panorama, el portal * [Alcalorpolitico.com](https://infografia.alcalorpolitico.com) (ACP) nos presenta una infografía con datos relevantes. 
 
 El primer aspecto a analizar es el mapamundi. En el lado positivo, se resalta un mapamundi que ayuda a contextualizar la problemática en las regiones del mundo. Además, se contrasta dos tipos de información: países donde mejor vive una mujer y zonas donde hay disparidad de géneros.
 
