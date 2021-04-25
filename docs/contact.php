@@ -1,9 +1,23 @@
 <?php
-$name = $_POST["name"];
-$email = $_POST["email"];
-$message = $_POST["message"];
-$para = "erickgamarraguerra@gmail.com";
-$asunto = "Asunto del mensaje";
-mail($para, $asunto, utf8_decode($message), $header);
-header("Location:index.tml");
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+
+$header = 'From: ' . $mail . " \r\n";
+$header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
+$header .= "Mime-Version: 1.0 \r\n";
+$header .= "Content-Type: text/plain";
+
+$message = "Este mensaje fue enviado por " . $nombre . ",\r\n";
+$message .= "Su e-mail es: " . $mail . " \r\n";
+$message .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
+$message .= "Enviado el " . date('d/m/Y', time());
+
+$para = 'erickgamarraguerra@gmail.com';
+$asunto = 'Mensaje de mi sitio web';
+
+mail($para, $asunto, utf8_decode($mensaje), $header);
+
+header("Location:index.html");
 ?>
+
