@@ -129,25 +129,25 @@
 <p>El conjunto de datos fue descargado del portal INE.es en el formato CSV: separado por ; </p>
 <p>Una vez que se tiene abierto el programa Cygwin, primero utilizamos el comando <b><i>ls</i></b> para ver el directorio actual y su contenido, además de ubicarse. </p>
 <img src="images/ls.jpg" width="100%" height="100%" alt="Captura personal">
-			<h5><b><i>Fuente: Archivo personal</i></b></h5>
+			<figcaption><b><i>Fuente: Archivo personal</i></b></figcaption>
 <p>Tras la verificación, uso el comando <i><b>cd</i></b> para dirigirme a la carpeta que contiene el archivo descargado y base de este trabajo. </p>
 <img src="images/cd.jpg" width="100%" height="100%" alt="Captura personal">
-			<h5><b><i>Fuente: Archivo personal</i></b></h5>
+			<figcaption><b><i>Fuente: Archivo personal</i></b></figcaption>
 <p>Antes de continuar y para no repetir pasos, primero verificamos si no hay problemas con la fuente del total del contenido. Para esta supervisión usamos el comando <i><b>cat</i></b></p>
 <img src="images/cut.jpg" width="100%" height="100%" alt="Captura personal">
-			<h5><b><i>Fuente: Archivo personal</i></b></h5>
+			<figcaption><b><i>Fuente: Archivo personal</i></b></figcaption>
 <p>Tal y como se puede constatar en la captura anterior, hay problemas con las palabras con tilde y las que llevan la letra “ñ”. Por estas razones, vamos a cambiar el lenguaje a UTF-8. </p> 
 <p>Primero averiguamos el tipo de archivo con el comando <i></b>file</i></b> y luego lo pasaremos al lenguaje UTF-8, ya mencionado, con el comando <i><b>iconv</i></b> y con la nueva denominación: “inmigración.csv”. </p>
 <p>Para verificar que el proceso se ha realizado correctamente, volvemos a usar los comandos <i><b>ls</i></b> y <i><b>cat</i></b>, tal y como se muestra en la siguiente captura. </p>
 <img src="images/iconvinmigracion.jpg" width="100%" height="100%" alt="Captura personal">
-			<h5><b><i>Fuente: Archivo personal</i></b></h5>
+			<figcaption><b><i>Fuente: Archivo personal</i></b></figcaption>
 <p>A continuación, pasaremos a revisar otros detalles del archivo como su peso, con el comando <i><b>du –sh</i></b>, y el total de líneas, con el comando <i><b>wc –l</i></b>.</p>
 <img src="images/duywc.jpg" width="100%" height="100%" alt="Captura personal">
-			<h5><b><i>Fuente: Archivo personal</i></b></h5>
+			<figcaption><b><i>Fuente: Archivo personal</i></b></figcaption>
 <p>En el primer caso, nos muestra que el peso de “inmigracion.csv” es de 4.0k y confirma que contiene 23 líneas. </p> 
 <p>Por último, y para pasar al análisis de los gráficos, pasaremos a ver las coincidencias de las primeras líneas y las últimas trece. De esta manera, usaremos <i><b>head -10</i></b> para ver las primeras y <i><b>tail -13</i></b> para ver las últimas. </p>
 <img src="images/headytail.jpg" width="100%" height="100%" alt="Captura personal">
-			<h5><b><i>Fuente: Archivo personal</i></b></h5>
+			<figcaption><b><i>Fuente: Archivo personal</i></b></figcaption>
 <p>Con el <i><b>head</i></b> y <i><b>tail</i></b> aplicado, completa el total de líneas de este archivo, además que coincide con el contenido del archivo. Con estos datos pasaremos a realizar la visualización y el análisis en <a href="https://www.datawrapper.de/" target="_blank">Datawrapper</a>.</p> 
 
 	<p><center><big><b><u>Saldo migratorio de españoles y extranjeros (2015-2020)</u></b></big></center></p>
